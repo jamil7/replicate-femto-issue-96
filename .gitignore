@@ -184,6 +184,8 @@ publish/
 # in these scripts will be unencrypted
 PublishScripts/
 
+.idea
+
 # NuGet Packages
 *.nupkg
 # NuGet Symbol Packages

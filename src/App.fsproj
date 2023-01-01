@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="App.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Feliz" Version="2.0.0-prerelease-003" />
+    <PackageReference Include="Fable.Core" Version="4.0.0-theta-005" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <NpmDependencies>
+      <NpmPackage Name="@visx/text" Version="2.12.2" ResolutionStrategy="max" />
+    </NpmDependencies>
+  </PropertyGroup>
+
+</Project>
